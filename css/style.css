@@ -139,19 +139,154 @@ header{
     opacity: 0.5;
 }
 
+
+
 .posts-article{
      margin: 20px 0px;
+
+     
 }
 
 
+.article__img{
 
 
+    width: 100%;
+}
+
+.parrafo-article{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    
+    /* or 186% */
+    letter-spacing: 0.04em;
+    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.article-desc--post{
+
+    position: relative;
+}
 
 
+.social__article{
+
+    color: #7487a0;
+    font-size: 19px;
+    position: absolute;
+    top: 0px;
+    right:  10px;
+
+}
+
+.footer{
+
+    background: #316099;
+    color: white;
+
+    border-radius: 0px 100px 0px 0px;
+   
+    margin-right: 5%;
+}
+.footer__content{
+
+    padding-top: 10px;
+}
+.title-h4{
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+   
+    width: 250px;
+}
+
+.footer__btn{
+
+    background: #5a98d0;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    animation: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.footer__btn:hover{
+
+    background: #2081d6;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.footer__parrafo{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px 0px;
+
+    /* or 162% */
+    letter-spacing: 0.05em;
+}
+.foother__title{
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+
+/* identical to box height, or 150% */
+letter-spacing: 0.05em;
+
+/* white */
+color: #FFFFFF;
+}
 
 
+.footer__list{
+    
+     margin: 10px 0px;
+}
+.footer__link{
+    font-family: Arial;
+font-style: normal;
+
+font-size: 15px;
+line-height: 26px;
+
+/* identical to box height, or 162% */
+letter-spacing: 0.05em;
+
+/* white */
+color: #FFFFFF;
+
+}
+.copy{
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+
+/* identical to box height, or 162% */
+letter-spacing: 0.05em;
+color: white;
+opacity: 0.4;
 
 
+}
 
 @media (min-width: 768px) {  
 
@@ -210,6 +345,12 @@ header{
     width: 350px;
     margin: 0px 10px;
 }
+
+.article-desc--post{
+
+    
+    padding-left: 20px;
+}
 .post__img--popular{
     width: 350px;
     height: 200px;
@@ -229,11 +370,39 @@ header{
     height: 270px;
 }
 
+.posts-article{
+  
+    display: flex;
+   
+    
+}
+
+.parrafo-article{
+
+    
+   
+    
+}
+
+
 }
 
 
 @media (min-width: 992px) { 
 
+
+    .parrafo-article{
+
+        height: 140px;
+       
+        
+    }
+    .article__img{
+
+
+        width: 100%;
+        height: 250px;
+    }
 
  }
 
