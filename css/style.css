@@ -81,6 +81,7 @@ header{
      color: #7487a0;
      background: #ebebeb;
      padding: 10px 0px 10px 40px;
+     width: 100%;
      
 }
 .search{
@@ -97,3 +98,147 @@ header{
     top: 10px;
     left: 10px;
 }
+
+/* =======================post======================= */
+
+.post{
+
+  
+   
+}
+.post__img{
+
+    width: 100%;
+    height: 314px;
+}
+
+.post_foother{
+
+    margin: 10px 0px;
+    position: relative;
+}
+.social{
+    position: absolute;
+    right: 20px;
+    top: 0;
+   
+}
+
+.parrafo--date{
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    
+    /* or 186% */
+    letter-spacing: 0.04em;
+    
+    color: rgba(0, 0, 0, 0.6);
+    opacity: 0.5;
+}
+
+.posts-article{
+     margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {  
+
+.h2{
+     font-size: 60PX;
+}
+
+    
+.post{
+
+    
+    display: flex;
+   
+    width: 100%;
+    height: 250px;
+}
+.post__img{
+
+   order: 2;
+   width: 540px;
+   height: 380px;
+   
+}
+
+.parrafo{
+    font-size: 20px;
+    
+    height: 170px;
+}
+
+.h3{
+
+}
+.post_desc{
+
+      
+       width: 50%;
+       height: 100%;
+
+}
+.social {
+    
+    top: 5px;
+}
+
+
+
+.posts-popular{
+
+    margin-top: 200px;
+    display: flex;
+    
+}
+.post-popular{
+   
+    width: 350px;
+    margin: 0px 10px;
+}
+.post__img--popular{
+    width: 350px;
+    height: 200px;
+}
+
+.post_desc--popular{
+    
+    width: 100%;
+}
+.h2--post{
+
+    font-size: 22px;
+    
+}
+.parrafo--popular {
+    font-size: 20px;
+    height: 270px;
+}
+
+}
+
+
+@media (min-width: 992px) { 
+
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+
+ }
